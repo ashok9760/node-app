@@ -22,6 +22,6 @@ jobs:
         aws_secret_key: nbH22wUSv7QfIRpU797Lk4mF+809f9McakqAqX6A
         application_name: 	test
         environment_name: Test-env
-        version_label: 12345
+        version_label: test-${{ github.run_id }}
         region: ap-south-1
         deployment_package: deploy.zip
