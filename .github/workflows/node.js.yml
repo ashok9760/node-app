@@ -1,5 +1,4 @@
-
-name: name: production
+name:  production
 
 // Configure what events and branches you want to trigger your pipeline on, in this case I want it to be trgiggered when I push the code in react-profile branch
 on:
